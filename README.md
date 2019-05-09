@@ -4,6 +4,6 @@
 
 ## Tech
 
--HTML
--CSS
--Bootstrap
+* HTML
+* CSS
+* Bootstrap
