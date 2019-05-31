@@ -29,6 +29,12 @@ header.container {
   margin: 0 0 5px 0;
 }
 
+#navbarNav {
+  color: white;
+  border-color: white;
+}
+
+
 .ig-logo {
   position: absolute;
   left: 15px;
@@ -54,12 +60,6 @@ ul.warranty {
   margin-right: 0px;
 }
 
-#footer-peppers {
-  display: inline-grid;
-  align-content: space-between;
-  align-content: right;
-  margin-left: 290%;
-}
 
 li.btn {
   color: white;
@@ -80,4 +80,37 @@ li.service {
 
 ul.terms {
   display: inline;
+}
+
+.section--features {
+  background-image: url("img/features-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  background-origin: border-box;
+  min-height: 900px;
+
+}
+
+.rock-n-stroll-logo {
+  align-items: flex-end;
+  float: right;
+}
+
+.navbar-peppers {
+  color: white;
+  float: right;
+
+}
+
+.two-footer {
+  float: right;
+}
+
+h2 {
+  margin-top: 5px;
+}
+
+a.learnmore {
+  color:red;
 }
