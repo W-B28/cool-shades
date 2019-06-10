@@ -103,10 +103,12 @@ ul.terms {
 
 }
 
-.two-footer {
-  float: right;
-}
 
+.clearfix {
+  content: "";
+  clear: right;
+
+}
 h2 {
   margin-top: 5px;
 }
