@@ -87,6 +87,10 @@ p.features-list {
   font-size: 1.5em;
 }
 
+.bone-conduction {
+  margin-top: 6em;
+}
+
 .section--features {
   background-image: url("img/features-background.jpg");
   background-repeat: no-repeat;
