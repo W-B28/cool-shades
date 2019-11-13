@@ -123,3 +123,43 @@ h2 {
 a.learnmore {
   color:red;
 }
+
+.circle {
+  border-radius: 100%;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+
+.red {
+  background: red;
+}
+
+.green {
+  background: green;
+}
+
+.blue {
+  background: blue;
+}
+
+.black {
+  background: black;
+}
+
+
+/*  media query for mobile products*/
+@media screen and (min-width: 992px) {
+  div#mobile-products {
+    display: none;
+  }
+}
+/* If the screen size is 600px wide or less, hide the element */
+@media screen and (max-width: 992px) {
+  div#desktop-products {
+    display: none;
+  }
+}
+
+
+/*  media query for desktop products*/
